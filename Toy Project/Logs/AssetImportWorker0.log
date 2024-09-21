@@ -15,7 +15,7 @@ C:/Users/YJW/Desktop/Toy-Project/Toy Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55030
+65192
 Successfully changed project path to: C:/Users/YJW/Desktop/Toy-Project/Toy Project
 C:/Users/YJW/Desktop/Toy-Project/Toy Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/YJW/Desktop/Toy-Project/Toy Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2332] Host "[IP] 112.162.112.250 [Port] 0 [Flags] 2 [Guid] 2673487628 [EditorId] 2673487628 [Version] 1048832 [Id] WindowsEditor(7,서영운정동욱) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13416] Host "[IP] 112.162.112.250 [Port] 0 [Flags] 2 [Guid] 1845129399 [EditorId] 1845129399 [Version] 1048832 [Id] WindowsEditor(7,서영운정동욱) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2332] Host "[IP] 112.162.112.250 [Port] 0 [Flags] 2 [Guid] 2673487628 [EditorId] 2673487628 [Version] 1048832 [Id] WindowsEditor(7,서영운정동욱) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13416] Host "[IP] 112.162.112.250 [Port] 0 [Flags] 2 [Guid] 1845129399 [EditorId] 1845129399 [Version] 1048832 [Id] WindowsEditor(7,서영운정동욱) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 69.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2197.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Unity/Unity Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -70,14 +70,14 @@ Initialize mono
 Mono path[0] = 'C:/Unity/Unity Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Unity/Unity Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Unity/Unity Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Unity/Unity Editor/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Unity/Unity Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Unity/Unity Editor/2022.3.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.026006 seconds.
-- Loaded All Assemblies, in 18.609 seconds
+Registered in 0.038983 seconds.
+- Loaded All Assemblies, in  2.174 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -95,36 +95,36 @@ InvalidOperationException: Cannot start process because a file name has not been
   at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <ac8a1d1a125546cf82b0ec17802fc7c2>:0 
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.351 seconds
-Domain Reload Profiling: 19958ms
-	BeginReloadAssembly (18047ms)
+- Finished resetting the current domain, in  1.566 seconds
+Domain Reload Profiling: 3735ms
+	BeginReloadAssembly (1166ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (133ms)
-	LoadAllAssembliesAndSetupDomain (342ms)
-		LoadAssemblies (18041ms)
+	RebuildCommonClasses (181ms)
+	RebuildNativeTypeToScriptingClass (68ms)
+	initialDomainReloadingComplete (271ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (1169ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (336ms)
-			TypeCache.Refresh (334ms)
-				TypeCache.ScanAssembly (270ms)
+		AnalyzeDomain (466ms)
+			TypeCache.Refresh (463ms)
+				TypeCache.ScanAssembly (433ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1353ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1567ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1190ms)
+		SetupLoadedEditorAssemblies (1454ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (423ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (407ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (335ms)
-			ProcessInitializeOnLoadMethodAttributes (416ms)
+			BeforeProcessingInitializeOnLoad (14ms)
+			ProcessInitializeOnLoadAttributes (574ms)
+			ProcessInitializeOnLoadMethodAttributes (446ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
@@ -132,8 +132,8 @@ Domain Reload Profiling: 19958ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.221 seconds
-Refreshing native plugins compatible for Editor in 10.22 ms, found 3 plugins.
+- Loaded All Assemblies, in 27.927 seconds
+Refreshing native plugins compatible for Editor in 37.60 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -142,47 +142,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.181 seconds
-Domain Reload Profiling: 3399ms
-	BeginReloadAssembly (558ms)
+- Finished resetting the current domain, in  4.270 seconds
+Domain Reload Profiling: 31916ms
+	BeginReloadAssembly (994ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (23ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (148ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (1416ms)
-		LoadAssemblies (1231ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (163ms)
+	LoadAllAssembliesAndSetupDomain (26395ms)
+		LoadAssemblies (25866ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (618ms)
-			TypeCache.Refresh (583ms)
-				TypeCache.ScanAssembly (554ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1182ms)
+		AnalyzeDomain (1288ms)
+			TypeCache.Refresh (766ms)
+				TypeCache.ScanAssembly (578ms)
+			ScanForSourceGeneratedMonoScriptInfo (514ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (4270ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (926ms)
+		SetupLoadedEditorAssemblies (3933ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (126ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (1530ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (648ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (2233ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 1.27 seconds
-Refreshing native plugins compatible for Editor in 6.39 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.85 seconds
+Refreshing native plugins compatible for Editor in 407.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (56.8 KB). Loaded Objects now: 3557.
-Memory consumption went from 127.5 MB to 127.5 MB.
-Total: 4.432300 ms (FindLiveObjects: 0.433500 ms CreateObjectMapping: 0.151900 ms MarkObjects: 3.678300 ms  DeleteObjects: 0.166700 ms)
+Unloading 3467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.0 KB). Loaded Objects now: 3932.
+Memory consumption went from 141.8 MB to 141.7 MB.
+Total: 96.029700 ms (FindLiveObjects: 0.516400 ms CreateObjectMapping: 0.267700 ms MarkObjects: 82.121000 ms  DeleteObjects: 13.121900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -199,705 +199,78 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2445.685757 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(d314ed5e7bc081641a27c3bbd4bdf608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(d314ed5e7bc081641a27c3bbd4bdf608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e17f10358387f4d0d72b374c98dae1') in 0.016141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 152.265084 seconds.
-  path: Assets/Materials/kenney_prototype-textures
-  artifactKey: Guid(a357caf0e5382bd41af6f963e7215571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/kenney_prototype-textures using Guid(a357caf0e5382bd41af6f963e7215571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20427f75d4edf2d74dcad74d951e75c9') in 0.001711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.512871 seconds.
-  path: Assets/Materials/kenney_prototype-textures/Preview.png
-  artifactKey: Guid(88826b53ed76e4944855e1c261893f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/kenney_prototype-textures/Preview.png using Guid(88826b53ed76e4944855e1c261893f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95492f7797fcd24837a42326d87b242d') in 0.330643 seconds
+  Time since last request: 5192.150172 seconds.
+  path: Assets/Materials/kenney_prototype-textures/PNG/Dark/texture_07.png
+  artifactKey: Guid(0da7804721386b2489f6a958098ef910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kenney_prototype-textures/PNG/Dark/texture_07.png using Guid(0da7804721386b2489f6a958098ef910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62297d42b2684280f5edad4f40afbd0') in 6.467166 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 9.825007 seconds.
-  path: Assets/Materials/kenney_prototype-textures/PNG
-  artifactKey: Guid(7563e27e721c18547a23352e0323125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/kenney_prototype-textures/PNG using Guid(7563e27e721c18547a23352e0323125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f797ded8ce7dd457963ec23bcd7d9107') in 0.004286 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/Materials/kenney_prototype-textures/PNG/Dark/texture_06.png
+  artifactKey: Guid(f1b7e807eeb5c0d44afd87f8355339c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kenney_prototype-textures/PNG/Dark/texture_06.png using Guid(f1b7e807eeb5c0d44afd87f8355339c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86ccee99e47f5273d1672199d67bcbf') in 0.887798 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 6.229895 seconds.
-  path: Assets/Model/kenney_prototype-kit
-  artifactKey: Guid(f5ccc2c4945df9c44be84de139af7579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit using Guid(f5ccc2c4945df9c44be84de139af7579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcde65f4b044efb4fb965c18ab1444fe') in 0.000842 seconds
+  Time since last request: 0.000040 seconds.
+  path: Assets/Materials/kenney_prototype-textures/PNG/Dark/texture_01.png
+  artifactKey: Guid(dfa531dae5d15be44a5ea8074ab83523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kenney_prototype-textures/PNG/Dark/texture_01.png using Guid(dfa531dae5d15be44a5ea8074ab83523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4c8dd16a4509f5d63825710b7f8255') in 0.135230 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.117969 seconds.
-  path: Assets/Model/kenney_prototype-kit/Preview.png
-  artifactKey: Guid(8bd86533f5a15b343852c10dfd971e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Preview.png using Guid(8bd86533f5a15b343852c10dfd971e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf12b9c2eeb62620ec64f815b82cf08') in 0.202706 seconds
+  Time since last request: 188.101483 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat
+  artifactKey: Guid(bbb235fff4f48426b863b36058ab66d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat using Guid(bbb235fff4f48426b863b36058ab66d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a0ef9435a83da0af53d665099107d5') in 0.498350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015003 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
+  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb8dc613a585e66ec3db26bbdbf021b') in 0.064909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
+  artifactKey: Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat using Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3e4ec384bc9efe6e91a1a0effecdf3') in 0.132242 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/Model/kenney_prototype-kit/Preview (Variation C).png
-  artifactKey: Guid(133aa9269cce19544a17f8ce4c35164d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Preview (Variation C).png using Guid(133aa9269cce19544a17f8ce4c35164d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f65078399daa5f456a1ca7ade0738e3') in 0.056296 seconds
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat
+  artifactKey: Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat using Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e33276791944dba00a642568ff0115') in 0.165668 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.172448 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models
-  artifactKey: Guid(d7368816d4e8a2a4690235d81cd38c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models using Guid(d7368816d4e8a2a4690235d81cd38c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6663937c46c2e5a49d7341b0939aed') in 0.001052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.578594 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format
-  artifactKey: Guid(cd836d039ab166047a459fb309da5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format using Guid(cd836d039ab166047a459fb309da5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc23c094a76060b06ea1f3d7b3d3901') in 0.001733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.117795 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/animal-bison.fbx
-  artifactKey: Guid(83fae3f7f081e534c875164b0eaa0336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/animal-bison.fbx using Guid(83fae3f7f081e534c875164b0eaa0336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d52af0be947bccbfb11f30c311e6db') in 1.506263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 42
 ========================================================================
 Received Import Request.
   Time since last request: 0.000049 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-7.fbx
-  artifactKey: Guid(607ef044fe6c42145a46233191fa1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-7.fbx using Guid(607ef044fe6c42145a46233191fa1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed00f12f36e81e0a5cc55b4ce77472d') in 0.036776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/column-triangle-low.fbx
-  artifactKey: Guid(c1b22b18ad2eb1d4e86c6760da7201c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/column-triangle-low.fbx using Guid(c1b22b18ad2eb1d4e86c6760da7201c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a928510c4c8de5f563404e56baa8e9d') in 0.042634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.001391 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/floor-thick-corner-rounded.fbx
-  artifactKey: Guid(28054f4e18860de40bd7cf3190409e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/floor-thick-corner-rounded.fbx using Guid(28054f4e18860de40bd7cf3190409e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b79a292fa3e5fccbd4a8bb15b89ed33') in 0.043320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/button-floor-square.fbx
-  artifactKey: Guid(5cec4a5c76ad654438b4f39fae76a936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/button-floor-square.fbx using Guid(5cec4a5c76ad654438b4f39fae76a936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1154111df464cca49cf263d42aeb8546') in 0.046126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/ladder-color.fbx
-  artifactKey: Guid(af127ab9091abe14cae871bcd1f4b063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/ladder-color.fbx using Guid(af127ab9091abe14cae871bcd1f4b063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d674be5b204ee95ed3bbbff40fc640') in 1.511147 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.010802 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/column.fbx
-  artifactKey: Guid(fd38d1b705f771f4f98e346792b57824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/column.fbx using Guid(fd38d1b705f771f4f98e346792b57824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d723130263b29c2f25edb96303256ac') in 0.155363 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.811577 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/column-low.fbx
-  artifactKey: Guid(22068ba5a8a9f604b865487e85ae7fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/column-low.fbx using Guid(22068ba5a8a9f604b865487e85ae7fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3e274c284f8ac3b58fd2e93d57ea8f') in 0.179020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.002878 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-5.fbx
-  artifactKey: Guid(1abeaae1de1138b498316a32f20a68f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-5.fbx using Guid(1abeaae1de1138b498316a32f20a68f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58cf75fbf8cccb3bd7c5a2bb5d2b03f') in 1.531905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.017512 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-double-4.fbx
-  artifactKey: Guid(e115adf2976000443bcb8d6c7760dc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-double-4.fbx using Guid(e115adf2976000443bcb8d6c7760dc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a28e458b84b67c51b5ec524c856dd9c') in 0.134811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.022082 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-0.fbx
-  artifactKey: Guid(7bdf69eca9855d143b97e9f3ded85f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-0.fbx using Guid(7bdf69eca9855d143b97e9f3ded85f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c11d1db4267381075ee8eb65bb21d8') in 3.515495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/indicator-square-f.fbx
-  artifactKey: Guid(b074b2bf69904f543a5e8b2292135575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/indicator-square-f.fbx using Guid(b074b2bf69904f543a5e8b2292135575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49153420078d3fac34dc3dfecc5c0086') in 0.164221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.089557 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/door-sliding-double-round.fbx
-  artifactKey: Guid(9fb21f62317170346a4bed70a63818de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/door-sliding-double-round.fbx using Guid(9fb21f62317170346a4bed70a63818de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b30a920e6d6329860d2bbc4449d383') in 2.884201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.010905 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/floor-thick-corner-diagonal.fbx
-  artifactKey: Guid(902bdf0bc9c8cf84ca0d486e040ff050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/floor-thick-corner-diagonal.fbx using Guid(902bdf0bc9c8cf84ca0d486e040ff050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624170ec212c229648239c4a392d5c04') in 2.131844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.114443 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/floor-diagonal.fbx
-  artifactKey: Guid(9a0cec5ddec6ec845bc92567a0acfd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/floor-diagonal.fbx using Guid(9a0cec5ddec6ec845bc92567a0acfd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646e6d4e805eaf752331911d6beb7d6f') in 1.174895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.552954 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/indicator-square-b.fbx
-  artifactKey: Guid(6a1b6c94d1a20af48be1b4d3ea5e4028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/indicator-square-b.fbx using Guid(6a1b6c94d1a20af48be1b4d3ea5e4028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea4e76faf5c02fa48d0267f28c57903') in 0.195081 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/button-floor-square-small.fbx
-  artifactKey: Guid(93715524a929fc3498733fc47f085071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/button-floor-square-small.fbx using Guid(93715524a929fc3498733fc47f085071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b35a94de4c38da3a6abfcb5af4fa80') in 0.224525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.001593 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-double-5.fbx
-  artifactKey: Guid(94d0e592abfa9b14ab3a38112cb6784c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-double-5.fbx using Guid(94d0e592abfa9b14ab3a38112cb6784c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0cfed11b19ebdda2e5309ae3720390') in 0.388492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000756 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/column-rounded-low.fbx
-  artifactKey: Guid(1fc281ed62d993c409243efc6dc6b381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/column-rounded-low.fbx using Guid(1fc281ed62d993c409243efc6dc6b381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a26daea11f93cf57eb74bf811c893f') in 0.346676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.035803 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-3.fbx
-  artifactKey: Guid(a748e97fad9b1e84a8d0aac1fc49300a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-3.fbx using Guid(a748e97fad9b1e84a8d0aac1fc49300a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f70fa3b842ec823a3e2d9d55a7021c1') in 0.207052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.410649 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/indicator-square-e.fbx
-  artifactKey: Guid(b27a2f05688ccb846a5ed7228a5fd5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/indicator-square-e.fbx using Guid(b27a2f05688ccb846a5ed7228a5fd5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f48430745357296ffc4dd28a9cc1929') in 0.140681 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000597 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/flag.fbx
-  artifactKey: Guid(e7c3dc6b2fa47e645ae26bf231925017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/flag.fbx using Guid(e7c3dc6b2fa47e645ae26bf231925017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9772a8c7a44e2d82b8a5811dfe06ebe') in 0.279382 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/indicator-round-b.fbx
-  artifactKey: Guid(7419ad930687bf94dac1544391bf4241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/indicator-round-b.fbx using Guid(7419ad930687bf94dac1544391bf4241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fdb060d6865042ab0e26043872f0db') in 0.242010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.015499 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/floor-small-square.fbx
-  artifactKey: Guid(e9cb6b9a8acc02d419c40844fa5422f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/floor-small-square.fbx using Guid(e9cb6b9a8acc02d419c40844fa5422f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d459e653626df692b7aea33666f8253') in 2.397629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.008274 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/figurine-cube.fbx
-  artifactKey: Guid(efa4517aad126804daddee5646520f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/figurine-cube.fbx using Guid(efa4517aad126804daddee5646520f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0119af11e421ca5e9c7c5faebd3e62') in 2.105011 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.491533 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-double-1.fbx
-  artifactKey: Guid(339ce100207576442a8b147e466f5a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-double-1.fbx using Guid(339ce100207576442a8b147e466f5a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1294e785b80fdc38a64b52e7cef434') in 0.702005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.001889 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/figurine-large.fbx
-  artifactKey: Guid(59c33c71b25291e4ebff7946c47904ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/figurine-large.fbx using Guid(59c33c71b25291e4ebff7946c47904ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb48d15b59e8b37decea5bc5431bc68d') in 0.285650 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/button-floor-round.fbx
-  artifactKey: Guid(18456633d0a2e4847bbc22f956ff06ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/button-floor-round.fbx using Guid(18456633d0a2e4847bbc22f956ff06ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebbde8efa58585f9ccf5c99aa3649e6') in 0.124440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.112003 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/floor-thick-corner-round.fbx
-  artifactKey: Guid(696daab479e48d847aa45a651e2ba325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/floor-thick-corner-round.fbx using Guid(696daab479e48d847aa45a651e2ba325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9edc4ba6ce3b603ac9720d7bcbad6fc') in 0.062040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/lever-single.fbx
-  artifactKey: Guid(0ccdfe79a483a2249a4ef2a3b0a889b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/lever-single.fbx using Guid(0ccdfe79a483a2249a4ef2a3b0a889b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dc09b31e96e945fb47127cb2501130') in 0.414046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.005999 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-4.fbx
-  artifactKey: Guid(306b34e3816456e4b9d38873af2e629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-4.fbx using Guid(306b34e3816456e4b9d38873af2e629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906ccabf21eda43963450e0d09dbfbef') in 0.127708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.007247 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-8.fbx
-  artifactKey: Guid(8c0912dd2083fcd4991d366efc3df781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-8.fbx using Guid(8c0912dd2083fcd4991d366efc3df781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbffd3970b78e6741602de00bb166eee') in 0.720647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/button-floor-round-small.fbx
-  artifactKey: Guid(6594712016a48ce4585b48ce6bab76d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/button-floor-round-small.fbx using Guid(6594712016a48ce4585b48ce6bab76d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ea3a4b14cfcc30f066d563a23f982f') in 0.155441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/door-rotate.fbx
-  artifactKey: Guid(126e2df04e2edc7448abd44b1a7ca812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/door-rotate.fbx using Guid(126e2df04e2edc7448abd44b1a7ca812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0db9ee220554a9e45897baa45731d5') in 2.564436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-1.fbx
-  artifactKey: Guid(bdcafa13c0ede21438ac161ce4441ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-1.fbx using Guid(bdcafa13c0ede21438ac161ce4441ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f28c6015405d946e1db48d18cb67355') in 0.064306 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-double-3.fbx
-  artifactKey: Guid(8ace2d3fa12b0af48a05b54a59b59db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-double-3.fbx using Guid(8ace2d3fa12b0af48a05b54a59b59db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871202f5ebe6b06f613ca12c1d327b3f') in 0.156819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.002214 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/indicator-square-c.fbx
-  artifactKey: Guid(f7e5e6a162f395347aab6ca1f39a3ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/indicator-square-c.fbx using Guid(f7e5e6a162f395347aab6ca1f39a3ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3977032fd61cf7d5b0271aef75dc91c6') in 0.155383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 10.241422 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/number-double-6.fbx
-  artifactKey: Guid(49d08c14a4e2a4943a68d216b3562c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/number-double-6.fbx using Guid(49d08c14a4e2a4943a68d216b3562c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433adb989424aac36095480e67cd115a') in 0.122151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cylinder-detailed.fbx
-  artifactKey: Guid(f6ffe0cfdc837b74aa4bb5ed523c731b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cylinder-detailed.fbx using Guid(f6ffe0cfdc837b74aa4bb5ed523c731b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b465e003a18dc8e8119536c0e826fb38') in 0.155174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.011429 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/pipe-corner.fbx
-  artifactKey: Guid(07adb6ff4de84c548ab9f28dc13c8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/pipe-corner.fbx using Guid(07adb6ff4de84c548ab9f28dc13c8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb7af8a89182010156a95d1673cc653') in 0.123408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cylinder.fbx
-  artifactKey: Guid(723da27f6caaee94ca443782cd598ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cylinder.fbx using Guid(723da27f6caaee94ca443782cd598ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489cbc0e0161a4ca7a3936780bd56d07') in 0.116374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cube-rounded.fbx
-  artifactKey: Guid(960a6b655ca720d4d8201027fa7df17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cube-rounded.fbx using Guid(960a6b655ca720d4d8201027fa7df17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271fe8d034938d4fbc24a7ec7b1f00c3') in 0.107669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.008876 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/pipe-split.fbx
-  artifactKey: Guid(4c9b52148df44e643b34add9f1ab12eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/pipe-split.fbx using Guid(4c9b52148df44e643b34add9f1ab12eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f8b13f8e70068701ec05e2f02bcdf8') in 0.302874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-round-low.fbx
-  artifactKey: Guid(971ea2d0520e4b240a3b3e1f2225b5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-round-low.fbx using Guid(971ea2d0520e4b240a3b3e1f2225b5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc96e843878c6179c5ccc8f04e4e00e') in 0.122257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hollow-cylinder.fbx
-  artifactKey: Guid(3e7fe952907d88a47bbcbc0e3ea43bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hollow-cylinder.fbx using Guid(3e7fe952907d88a47bbcbc0e3ea43bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81d132c0d5f8f1dde172cc665f60344') in 0.120089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/stairs-diagonal-small.fbx
-  artifactKey: Guid(ade0d180239b8ac499c8cddc6019cb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/stairs-diagonal-small.fbx using Guid(ade0d180239b8ac499c8cddc6019cb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d168853bd2e3db4b1029c6c1c32e795') in 0.157461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/stairs-diagonal-small-narrow.fbx
-  artifactKey: Guid(28e3b970c09083640ab9cdef37992028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/stairs-diagonal-small-narrow.fbx using Guid(28e3b970c09083640ab9cdef37992028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46affad6028fda7a99a0f84cb24ebb92') in 0.179948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.010530 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-corner-rounded-low.fbx
-  artifactKey: Guid(7ff17a6704b193a4a8704d9e5b15c1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-corner-rounded-low.fbx using Guid(7ff17a6704b193a4a8704d9e5b15c1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eb1d57098eb3d3f5b48d2bc175ffc5') in 0.194291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/stairs-diagonal.fbx
-  artifactKey: Guid(f5ba386ebe1230849bed877bdac237df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/stairs-diagonal.fbx using Guid(f5ba386ebe1230849bed877bdac237df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15b2bc90d811be7f837df8e2619f270') in 4.165692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.480444 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-low.fbx
-  artifactKey: Guid(b3ba6a3a76aa5134c8579b0df68e47bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-low.fbx using Guid(b3ba6a3a76aa5134c8579b0df68e47bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cbc63f4bb1b9b85e7e84c0a13750df') in 0.166076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000937 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hollow-hexagon.fbx
-  artifactKey: Guid(5bba0437d7f5dc14b987dbf25367a497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hollow-hexagon.fbx using Guid(5bba0437d7f5dc14b987dbf25367a497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41995b63c213e1ab279b095a86ce7ffe') in 3.099252 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/stairs.fbx
-  artifactKey: Guid(47ed7ca070563bd4f9bfc524eb2f072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/stairs.fbx using Guid(47ed7ca070563bd4f9bfc524eb2f072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36989b971b79fd301f6d3af92645f231') in 0.818261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.010336 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/vehicle-convertible.fbx
-  artifactKey: Guid(e914c330ba229f24784feab862105852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/vehicle-convertible.fbx using Guid(e914c330ba229f24784feab862105852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86542d5908d5f23b7a0bd10a5713084b') in 0.587004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-diagonal.fbx
-  artifactKey: Guid(eff3ed97606799547b6168a455ca4a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-diagonal.fbx using Guid(eff3ed97606799547b6168a455ca4a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638afc11d9907eefd8bbf6f7677b3ee4') in 0.747627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-window-cutout-large.fbx
-  artifactKey: Guid(05dd928b9c60bf94faed3bff4b51fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-window-cutout-large.fbx using Guid(05dd928b9c60bf94faed3bff4b51fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391fe6732e1391640c9d7f6fd7036def') in 0.124517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.267218 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-doorway-wide-sliding.fbx
-  artifactKey: Guid(40ec5fc9d3c7c21458e07e76a5a0b0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-doorway-wide-sliding.fbx using Guid(40ec5fc9d3c7c21458e07e76a5a0b0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301772377d49b8ebbc7037e8bf9910e5') in 0.284979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/vehicle.fbx
-  artifactKey: Guid(9c81f9b012f70d244ba61fcc0096acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/vehicle.fbx using Guid(9c81f9b012f70d244ba61fcc0096acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e637014a7bcf8d0eeef755b8494c5874') in 0.200360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-corner-rounded.fbx
-  artifactKey: Guid(ef09ac3d73fc66b47a15026d5a22e84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-corner-rounded.fbx using Guid(ef09ac3d73fc66b47a15026d5a22e84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fb8105aec15395ed0e58f4d47b3fae') in 0.228586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-doorway-garage.fbx
-  artifactKey: Guid(42eabbc951a050940892c4be5bf36242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-doorway-garage.fbx using Guid(42eabbc951a050940892c4be5bf36242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7f6ec70dba328f84fa7e3dd5bf926f') in 2.508132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/weapon-sword.fbx
-  artifactKey: Guid(95e32ef0e7462474ba25f864d507e34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/weapon-sword.fbx using Guid(95e32ef0e7462474ba25f864d507e34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802c07fc58a750bea0a585eb109a0a00') in 0.314906 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.062351 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-window-cutout-small.fbx
-  artifactKey: Guid(a5c736f39c29a8048ba685618c59cfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-window-cutout-small.fbx using Guid(a5c736f39c29a8048ba685618c59cfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5802671c0cb63a1ac5bb43b9129a8b65') in 0.044933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/pipe.fbx
-  artifactKey: Guid(5434b922a19635d4f847a3aef7bd8cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/pipe.fbx using Guid(5434b922a19635d4f847a3aef7bd8cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9ffe996f616920482ad16b728fbe6c') in 0.042402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-doorway-round.fbx
-  artifactKey: Guid(16bc38eaf3851194b81bf1f8e9eefc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-doorway-round.fbx using Guid(16bc38eaf3851194b81bf1f8e9eefc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51dd15abe472cb550950f347d00b20d') in 0.461224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cube.fbx
-  artifactKey: Guid(7ae2fe48dea9dd54f89d9eb7c4498805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cube.fbx using Guid(7ae2fe48dea9dd54f89d9eb7c4498805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930f905ade49fb1cee960bafb45adfb8') in 0.389179 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.005221 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/stairs-narrow.fbx
-  artifactKey: Guid(e948bad8ba9147448af5be61c1616f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/stairs-narrow.fbx using Guid(e948bad8ba9147448af5be61c1616f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21d414ec344fbaeb82cf5b9fc92a58a') in 2.716733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.542082 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-window-cutout-medium.fbx
-  artifactKey: Guid(998399c315492204eaacda0c92b326ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-window-cutout-medium.fbx using Guid(998399c315492204eaacda0c92b326ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6192269023f5540dd15925335e2729') in 0.123953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cylinder-half-detailed.fbx
-  artifactKey: Guid(3f19997633966184bb76a0ce37a87912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cylinder-half-detailed.fbx using Guid(3f19997633966184bb76a0ce37a87912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab0a602ce1d0b9fa1479afcbaa14297') in 0.436951 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.396840 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hollow-cylinder-detailed.fbx
-  artifactKey: Guid(5d4303d616dc27c489da626ca67653f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hollow-cylinder-detailed.fbx using Guid(5d4303d616dc27c489da626ca67653f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17636807bb239843a8ebc66c9f9e81b9') in 2.466048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.046661 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/wall-window-barred-small.fbx
-  artifactKey: Guid(f3062db53cac32d438a3b1b786121909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/wall-window-barred-small.fbx using Guid(f3062db53cac32d438a3b1b786121909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7232d9bf5d8361ad250fcc8caff37de') in 0.998274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/stairs-diagonal-narrow.fbx
-  artifactKey: Guid(6677000f6d896c540b81b84f50dc628d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/stairs-diagonal-narrow.fbx using Guid(6677000f6d896c540b81b84f50dc628d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf2159be6707414f7d693a43baa8c07') in 0.148742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cylinder-half.fbx
-  artifactKey: Guid(da0d6f6622d0d0a4d84cc3b988aeccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cylinder-half.fbx using Guid(da0d6f6622d0d0a4d84cc3b988aeccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559c3ec40786f0eb7d0a83bce94ecfd8') in 0.113737 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hollow-cylinder-half-detailed.fbx
-  artifactKey: Guid(a367bd4936141cc4daa1f23306a2e213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hollow-cylinder-half-detailed.fbx using Guid(a367bd4936141cc4daa1f23306a2e213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac7400a8ed76e69e2e7698e49a994cb') in 0.057922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.012954 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hexagon.fbx
-  artifactKey: Guid(ba2094e141cb09b44be194f1bd5115bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hexagon.fbx using Guid(ba2094e141cb09b44be194f1bd5115bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401db98c4e1cf70c0b1efc5e4ab79dde') in 0.047470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/target-a-round.fbx
-  artifactKey: Guid(a6800831757277a4bbb1417fbb1eedb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/target-a-round.fbx using Guid(a6800831757277a4bbb1417fbb1eedb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64a0fc40bbed5b58b0c40831c068930') in 0.066157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/target-b-square.fbx
-  artifactKey: Guid(110f37e831bd37549a8acdcefbee2527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/target-b-square.fbx using Guid(110f37e831bd37549a8acdcefbee2527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0f64c12492c3e0e31008e6f110b44b') in 0.077031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 378.444751 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/GLB format
-  artifactKey: Guid(3e539992e9f879e419ee34814c89be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/GLB format using Guid(3e539992e9f879e419ee34814c89be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31d016d8c4b9160e9d5c708aeb93ae3') in 0.002623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 25.198023 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/OBJ format
-  artifactKey: Guid(eb33ffbaa0dece04aaca76730195e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/OBJ format using Guid(eb33ffbaa0dece04aaca76730195e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62e5bbf553bd0940c963a7a11d1ab61') in 0.001132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 77.539551 seconds.
-  path: Assets/Model/kenney_prototype-kit/License.txt
-  artifactKey: Guid(71a02970cab17b64aa34c4321e29c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/License.txt using Guid(71a02970cab17b64aa34c4321e29c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3246899ebff17702c102de00cf629a') in 0.076602 seconds
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat
+  artifactKey: Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat using Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88c6a2491ccfa12d8853f16984c1cfc') in 0.060776 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 23.670169 seconds.
-  path: Assets/Materials/kenney_prototype-textures/Kenney.url
-  artifactKey: Guid(a3508302771508d41938149bdefd7dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/kenney_prototype-textures/Kenney.url using Guid(a3508302771508d41938149bdefd7dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b573adc0131c5602cea7018f1ebf94') in 0.061494 seconds
+  Time since last request: 0.002938 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat
+  artifactKey: Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat using Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292c6feea650612576f7249ff01d8892') in 0.096860 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
